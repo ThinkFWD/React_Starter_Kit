@@ -1,7 +1,7 @@
 {
-  "name": "minimal-react-starter",
-  "version": "0.0.4",
-  "description": "Minimal react starter project",
+  "name": "Hungry Adventure",
+  "version": "0.0.1",
+  "description": "Application that makes travel planning easier",
   "main": "src/index.js",
   "scripts": {
     "compile": "webpack",
@@ -12,13 +12,14 @@
     "webpack",
     "babel",
     "minimal",
-    "starter"
+    "travel",
+    "planning"
   ],
   "author": "ThinkFWD",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ThinkFWD/React_Starter_Kit.git"
+    "url": "git://github.com/ThinkFWD/HungryAdventure.git"
   },
   "dependencies": {
     "babel-core": "^6.22.1",
@@ -30,5 +31,6 @@
     "react-dom": "^15.4.2",
     "webpack": "^2.2.1",
     "webpack-dev-middleware": "^1.10.0"
-  }
+    "jquery": "^2.2.1",
+    "lodash": "^4.6.1",  }
 }
